@@ -17,7 +17,7 @@ const Card1 = () => {
           <img src={camera} alt='camera'></img>
           <img src={mouse} alt='mouse'></img>
           <img src={watch} alt='watch'></img>
-          <img src={earbuds} alt='earbuds'></img>
+          <img src={earbuds }alt='earbuds'></img>
       </div>
       <div className='grid grid-cols-4 flex gap-6 font-semibold text-xl text-white'>
         <p>Instant camera <br></br>Price $100.00</p>
@@ -26,19 +26,14 @@ const Card1 = () => {
         <p>Wireless earbuds<br></br>Price $100.00</p>
       </div>
       <div className='place-items-center text-white pt-8 '>
-         <button class="flex items-center justify-center space-x-2 rounded-md border-2 border-white p-10 py-4 font-medium text-white transition hover:bg-blue-500 hover:text-white">
+         <button class="flex items-center justify-center space-x-2 rounded-md border-2 border-white px-10 py-4 font-medium text-white transition hover:bg-blue-500 hover:text-white">
         <span> Learn more </span>
       </button>
       </div>
-      <div className='text-5xl font-semibold text-white leading-[300px]'>
+      <div className='text-5xl font-semibold text-white leading-[150px]'>
         Why Us
       </div>
       <hr></hr>
-      <div className='grid grid-cols-3 flex gap-6 rounded-lg py-[100px]'>
-        <p className='font-semibold text-3xl text-white'> Free shipping on <br></br>orders over $50</p>
-        <p className='font-semibold text-3xl text-white'>Available to <br></br>you 24/7</p>
-        <p className='font-semibold text-3xl text-white'>Extended <br></br>Warranty Plans</p>
-      </div>
     </div>
   )
 }

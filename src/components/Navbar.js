@@ -1,18 +1,22 @@
 import React from 'react'
 import logo from '../images/logo.jpg'
+import { CiHeart } from 'react-icons/ci';
+import { IoPersonOutline } from 'react-icons/io5';
+import { TbShoppingBagHeart } from 'react-icons/tb';
 
 
 const Navbar = () => {
   return (
     <div class="justify-around bg-gradient-to-r from-violet-900 via-black to-violet-900 px-5">
-      <header class="mb-2 px-5 shadow bg-gradient-to-r from-violet-900 via-black to-violet-900 ">
-      <div class="relative  flex max-w-screen-lg flex-col px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+      <header class="mb-2  shadow bg-gradient-to-r from-violet-900 via-black to-violet-900 ">
+      <div class="relative  flex  px-5 py-4 sm:flex-row sm:items-center gap-2 sm:justify-between">
+        <div>
       <a class="flex items-center text-2xl font-black" href="/">
       <span class="mr-2 text-3xl text-blue-600"
         ><img src={logo} alt='logo' width={"180px"}></img>
       </span>
     </a>
-    <input class="peer hidden" type="checkbox" id="navbar-open" />
+    </div>
    <div class="gap-x-20 ">
      <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-4 sm:block sm:py-0">
       <ul class="flex whitespace-nowrap flex-col gap-10 gap-x-10 sm:flex-row sm:gap-x-18">
@@ -25,14 +29,19 @@ const Navbar = () => {
       </ul>
     </nav>
    </div>
+    <div className='text-white text-3xl flex gap-4 m-[20px]'>
+    <CiHeart />
+    <IoPersonOutline />
+    <TbShoppingBagHeart />
+  </div>
   </div>
 </header>
 <div class='grid grid-cols-3 flex bg-gradient-to-r from-violet-900 via-black to-violet-900 px-5 py-5'>
     <div className='col-span-2'>
-<div class='text-[300px] font-semibold text-white'>SELCORE</div>
+<div class='text-[250px] font-semibold text-white'>SELCORE</div>
 <p class='text-3xl font-semibold text-white'>Your Ultimate Destination for the Best Value <br></br>Electronics and Gadgets</p>
 </div>
-<div >
+<div className='ml-20'>
 <div class="flex w-96 col-span-1 rounded-lg border py-10 px-5 shadow-xl mx-auto">
   <div class="mx-auto mb-2 space-y-6">
     <h1 class="text-2xl font-semibold text-white px-5">Sign up to receive updates on new products and special offers</h1>

@@ -8,7 +8,7 @@ const Main1 = () => {
   return (
     <>
       <hr></hr>
-      <div className="grid grid-cols-2 gap-4 flex bg-gradient-to-r from-violet-900 via-black to-violet-900 p-10 pb-[200px]">
+      <div className="grid grid-cols-2 gap-4 flex bg-gradient-to-r from-violet-900 via-black to-violet-900 p-10 pb-[200px] items-stretch">
         <div className="shadow w-7xl text-white bg-gradient-to-r from-[#4F3961] via-[#382039] to-[#4F3961] w-auto h-400 p-10 rounded-md">
           <p className="text-5xl leading-[150px]">Top Deals</p>
           <p className="text-xl leading-[50px]">UP TO</p>
