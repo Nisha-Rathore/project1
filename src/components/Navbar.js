@@ -13,7 +13,7 @@ const Navbar = () => {
         <div>
       <a class="flex items-center text-2xl font-black" href="/">
       <span class="mr-2 text-3xl text-blue-600"
-        ><img src={logo} alt='logo' width={"180px"}></img>
+        ><img src={logo} alt='logo' width={"180px"} className='w-full md:w-auto'></img>
       </span>
     </a>
     </div>
@@ -36,15 +36,15 @@ const Navbar = () => {
   </div>
   </div>
 </header>
-<div class='grid grid-cols-3 flex bg-gradient-to-r from-violet-900 via-black to-violet-900 px-5 py-5'>
+<div class='grid grid-cols-1 md:grid-cols-3 bg-gradient-to-r from-violet-900 via-black to-violet-900 px-5 py-5'>
     <div className='col-span-2'>
-<div class='text-[250px] font-semibold text-white'>SELCORE</div>
-<p class='text-3xl font-semibold text-white'>Your Ultimate Destination for the Best Value <br></br>Electronics and Gadgets</p>
+<div class='text-6xl md:text-[250px] font-semibold text-white'>SELCORE</div>
+<p class='text-xl md:text-3xl font-semibold text-white'>Your Ultimate Destination for the Best Value <br></br>Electronics and Gadgets</p>
 </div>
-<div className='ml-20'>
-<div class="flex w-96 col-span-1 rounded-lg border py-10 px-5 shadow-xl mx-auto">
+<div className='mt-5 md:mt-0 md:ml-20'>
+<div class="flex w-full md:w-96 col-span-1 rounded-lg border py-10 px-5 shadow-xl mx-auto">
   <div class="mx-auto mb-2 space-y-6">
-    <h1 class="text-2xl font-semibold text-white px-5">Sign up to receive updates on new products and special offers</h1>
+    <h1 class="text-lg md:text-2xl font-semibold text-white px-5">Sign up to receive updates on new products and special offers</h1>
     <p class="text-white px-5">Enter your email*</p>
     <hr></hr>
 

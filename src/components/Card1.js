@@ -9,17 +9,17 @@ const Card1 = () => {
   return (
     <div class='bg-gradient-to-r from-violet-900 via-black to-violet-900 p-2 pb-[20px] columns-lg-4'>
         <hr></hr>
-      <div class='grid grid-cols-3 gap-5 flex  py-8'>
-        <p class='col-span-2 text-7xl text-white font-semibold'>Best Sellers</p>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-5 py-8'>
+        <p class='col-span-2 text-4xl md:text-7xl text-white font-semibold'>Best Sellers</p>
           <button class="focus:ring outline-none rounded-lg text-black bg-purple-500 font-bold active:scale-10 hover:opacity-90">VIEW ALL</button>
       </div>
-      <div class='grid grid-cols-4 flex gap-6 rounded-lg'>
-          <img src={camera} alt='camera'></img>
-          <img src={mouse} alt='mouse'></img>
-          <img src={watch} alt='watch'></img>
-          <img src={earbuds }alt='earbuds'></img>
+      <div class='grid grid-cols-2 md:grid-cols-4 gap-6 rounded-lg'>
+          <img src={camera} alt='camera' className='w-full'></img>
+          <img src={mouse} alt='mouse' className='w-full'></img>
+          <img src={watch} alt='watch' className='w-full'></img>
+          <img src={earbuds }alt='earbuds' className='w-full'></img>
       </div>
-      <div className='grid grid-cols-4 flex gap-6 font-semibold text-xl text-white'>
+      <div className='grid grid-cols-2 md:grid-cols-4 gap-6 font-semibold text-lg md:text-xl text-white'>
         <p>Instant camera <br></br>Price $100.00</p>
         <p>Wireless mouse <br></br>Price $50.00</p>
         <p>Fitness tracker <br></br>Price $75.00</p>
@@ -30,7 +30,7 @@ const Card1 = () => {
         <span> Learn more </span>
       </button>
       </div>
-      <div className='text-5xl font-semibold text-white leading-[150px]'>
+      <div className='text-3xl md:text-5xl font-semibold text-white leading-[150px]'>
         Why Us
       </div>
       <hr></hr>
