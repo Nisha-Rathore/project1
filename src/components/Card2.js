@@ -14,7 +14,7 @@ const Card2 = () => {
   return (
     <div className='bg-gradient-to-r from-violet-900 via-black to-violet-900 py-[200px] '>
        <div class='grid grid-cols-1 bg-gradient-to-r from-violet-900 via-black to-violet-900 p-2 pb-[20px] columns-lg-4 pl-[50px] pl-md-[20px] pb-[250px] '>
-        <img src={laptop} className='animate-bounce' alt='laptop'></img>
+        <img src={laptop} alt='laptop'></img>
          <div class='bg-gradient-to-r from-violet-900 via-black to-violet-900 p-2 pb-[20px] columns-lg-4'>
             <br></br>
         <hr></hr>
@@ -23,9 +23,9 @@ const Card2 = () => {
           <button class="focus:ring outline-none rounded-lg text-black bg-purple-500 font-bold active:scale-10 hover:opacity-90">ALL PRODUCTS</button>
       </div>
       <div class='grid grid-cols-3 flex gap-6 rounded-lg'>
-          <img src={tablet} class="animate-bounce" alt='camera'></img>
-          <img src={phones} class="animate-ping" alt='mouse'></img>
-          <img src={accessories} class="animate-spin" alt='watch'></img>
+          <img src={tablet} alt='camera'></img>
+          <img src={phones}  alt='mouse'></img>
+          <img src={accessories} alt='watch'></img>
       </div>
       <div className='grid grid-cols-3 flex gap-6 font-semibold text-4xl text-white underline pb-5'>
         <p>Computers & Tablets</p>
